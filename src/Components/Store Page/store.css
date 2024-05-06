@@ -1,0 +1,26 @@
+.genreOptions li{
+    @apply cursor-pointer hover:text-blue-500
+}
+
+.storeOptions li{
+    @apply flex items-center gap-[7px] cursor-pointer
+}
+
+.storeOptions span{
+    @apply text-2xl
+}
+
+.checkbox{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

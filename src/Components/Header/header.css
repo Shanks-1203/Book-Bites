@@ -1,0 +1,7 @@
+.homeOptions li{
+    @apply cursor-pointer hover:text-blue-500
+}
+
+.bookmark{
+    @apply absolute top-[-5px] text-[2rem]
+}
